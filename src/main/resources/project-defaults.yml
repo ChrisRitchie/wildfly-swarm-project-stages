@@ -1,0 +1,4 @@
+project:
+    stage: default
+logger:
+    level: INFO

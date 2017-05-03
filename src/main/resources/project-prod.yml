@@ -1,0 +1,4 @@
+project:
+    stage: prod
+logger:
+    level: WARN
