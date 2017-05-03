@@ -90,7 +90,7 @@ String stage = config.resolve("project.stage").getValue();
 System.out.println(stage);
 
 I run:
-mvn clean install && java -jar ./target/project-stages-test-0.0.1-SNAPSHOT-swarm.jar --project=dev
+mvn clean install && java -jar ./target/project-stages-test-0.0.1-SNAPSHOT-swarm.jar --profile=dev
 
 And it still uses the default profile:
 
